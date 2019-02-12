@@ -1,4 +1,11 @@
-
+function menu() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 // edit button function
 var modal = document.getElementById('id01');
 
@@ -8,8 +15,6 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-
-
 //functions to search political party
 function searchparty() {
     var input, filter, table, tr, td, i, txtValue;
@@ -56,11 +61,9 @@ function searchparty() {
 
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
-
   function mybutton() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
-  
   // Close the dropdown if the user clicks outside of it
   window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
@@ -74,3 +77,6 @@ toggle between hiding and showing the dropdown content */
       }
     }
   }
+
+
+  

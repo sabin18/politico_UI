@@ -14,11 +14,14 @@ input[type=text5], input[type=password] {
 input[type=text5]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
+  
 }
 
 .login{
 
   background-image: url(images/Login-Background.jpg); 
+  padding-bottom:12%;
+
 }
 
 .signup{
@@ -28,13 +31,13 @@ input[type=text5]:focus, input[type=password]:focus {
 
 /* Set a style for all buttons */
 .button5 {
-  background-color: #4CAF50;
+  background-color:blue;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 10%;
   opacity: 0.9;
 }
 
@@ -110,6 +113,7 @@ hr {
   clear: both;
   display: table;
 }
+
 input[type=file], select, textarea {
   width: 100%;
   padding: 12px;
@@ -120,9 +124,7 @@ input[type=file], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
 
-
 }
-
 input[type=submit] {
   background-color: #4CAF50;
   color: white;
@@ -176,9 +178,9 @@ input[type=submit]:hover {
 }
 
 .xlarge-font {
-  font-size: 64px
+  font-size: 64px;
+  color:white;
 }
-
 
 .button4 {
   border: none;
@@ -186,15 +188,15 @@ input[type=submit]:hover {
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
-  background-color: #4CAF50;
+  background-color:blue
 }
 footer {
-  background-color: orange;
+  background-color:blue;
   padding: 10px;
   text-align: center;
-  color: blue;
+  color: white;
+  bottom: 0;
 }
-
 img {
   display: block;
   height: auto;
@@ -305,11 +307,11 @@ img {
 }
 
 .dropdown-content a {
-  color:black;
+  color:white;
   padding: 1px 1px;
   text-decoration: none;
   display: block;
-  font-size:2px;
+  font-size:20px;
 
 }
 .dropdown-content i {
@@ -319,7 +321,7 @@ img {
   display: block;
   font-size:2px;
 }
-.dropdown a:hover {background-color: black;
+.dropdown a:hover {background-color:white;
 
 color: black;}
 
@@ -361,22 +363,16 @@ color: black;}
   border-radius: 6px;
 
 }
-
 .button1:first-child {
     margin-left: 0;
 }
-
 .button1:last-child {
     margin-right: 0;
 }
-
 .button1:hover {
   background-color:green;
   color: white;
 }
-
-
-
 .button2 {
   background-color:orange; 
   border: 1;
@@ -533,11 +529,8 @@ body {
   font-size: 20px;
   height: 80px;
 }
-
-
 .menu i {
   float: left;
-  display: ;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -546,7 +539,6 @@ body {
   height: 80%;
 
 }
-
   .menu.responsive a {
     float: none;
     display: block;
@@ -561,7 +553,7 @@ form {border: 3px solid #f1f1f1;
 }
 
 input[type=text2], input[type=password] {
-  width: 50%;
+  width: 20%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -576,7 +568,7 @@ input[type=text2], input[type=password] {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 30%;
+  width: 10%;
 }
 
 .button5:hover {
@@ -626,21 +618,29 @@ span.psw {
   color: black;
 }
 
-
-
 .menu-right {
   float: right;
 }
-
-
+.menu-right a {
+  background-color:blue;
+  padding-top:10px;
+  overflow:block;
+  
+}
+@media screen and (max-width: 600px, max-width:360px) {
+  .menu-right a:not(:first-child) {display: none;}
+  .menu-right a.icon {
+    float: left;
+    display: block;
+  }
 
 .active {
    
   color: white;
 }
 
-
 @media screen and (max-width: 600px, max-width:360px) {
+  .menu-right{}
   .menu a:not(:first-child) {display: none;}
   .menu a.icon {
     float: right;
@@ -663,8 +663,6 @@ span.psw {
   }
 
 }
-
-
 * {
   box-sizing: border-box;
 }
@@ -674,11 +672,10 @@ body {
 }
 
 /* Style the header */
-/* Style the header */
 
 header {
 
-  background-color:orange;
+  background-color:white;
  
   width:100%;
 
@@ -692,23 +689,13 @@ header {
 
   margin-top:5%; 
 
-
-
-
 }
-@media screen and (max-width: 600px,max-width: 360px) {
+@media screen and (max-width: 600px, max-width: 360px) {
+  
   .header.responsive {position: relative;
    margin-top:20%;
 
   }
-  .header.responsive .icon {
-   
-
-img {
-  display: block;
-  height: auto;
-  max-width: 100%;
-}
 
 @media screen and (max-width: 1000px) {
   .column-66,
@@ -722,7 +709,6 @@ img {
 
 .home {
 
-
   padding: 30px;
 
   text-align: center;
@@ -733,11 +719,7 @@ img {
 
   background-image:100%;
 
-  
-
 }
-
-
 
 * {
 
@@ -745,21 +727,11 @@ img {
 
 }
 
-​
-
 body {
 
   font-family: Arial, Helvetica, sans-serif;
 
 }
-
-​
-
-/* Style the header */
-
-
-
-​
 
 /* Create two columns/boxes that floats next to each other */
 
@@ -777,8 +749,6 @@ nav {
 
 }
 
-​
-
 /* Style the list inside the menu */
 
 nav ul {
@@ -788,8 +758,6 @@ nav ul {
   padding: 0;
 
 }
-
-​
 
 article {
 
@@ -805,8 +773,6 @@ article {
 
 }
 
-​
-
 /* Clear floats after the columns */
 
 section:after {
@@ -820,25 +786,6 @@ section:after {
   height: 300px;
 
 }
-
-​
-
-
-
-footer {
-
-  background-color: #777;
-
-  padding: 10px;
-
-
-  background-color:orange;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
@@ -869,14 +816,6 @@ section:after {
   clear: both;
 }
 
-/* Style the footer */
-footer {
-  background-color: orange;
-  padding: 10px;
-  text-align: center;
-  color: blue;
-}
-
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
   nav, article {
@@ -884,7 +823,5 @@ footer {
     height: auto;
   }
 
-
- 
-
+}
 }
