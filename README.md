@@ -3,20 +3,20 @@ Politico enables citizens give their mandate to politicians running for differen
 
 ### language used to build
 
-####html
-####css
-####javascript 
+#### html
+#### css
+#### javascript 
 
 ### feature of UI
 
-####login page
-####sign up page
-####admin panel page
-####user panel page
-####create political party page
-####create political office page
-####Edit political party
-####Edit political office
-####experess interest page
-####view interest page
-####home page
+#### login page
+#### sign up page
+#### panel page
+#### user panel page
+#### create political party page
+#### create political office page
+#### Edit political party
+#### Edit political office
+#### experess interest page
+#### view interest page
+#### home page
