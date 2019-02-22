@@ -79,4 +79,12 @@ toggle between hiding and showing the dropdown content */
   }
 
 
-  
+  function pop() {
+  var txt;
+  if (confirm("do you want to delete this party!")) {
+    txt = "You pressed OK!";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
